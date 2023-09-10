@@ -1,12 +1,11 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 import Lottie from  "lottie-react";
 import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
 import Avatar from '../images/Avatar.png';
 import { CiCoffeeCup } from "react-icons/ci";
-import {GrMail} from "react-icons/gr";
+import { GrMail } from "react-icons/gr";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -16,9 +15,9 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <Container>
-      <Row>
-        <Col>
+    <div className="container">
+      <div className="row">
+        <div className="col">
           <div className='HomePage'>
             <div className='HomeText'>
               <h1 style={{ paddingBottom: 15 }} className="heading">
@@ -37,8 +36,8 @@ const Home = () => {
               loop={true} 
             />
           </div>
-        </Col>
-        <Col>
+        </div>
+        <div className="col">
           <div className='AboutPage'>
             <div className='AboutText'>
               <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
@@ -57,10 +56,10 @@ const Home = () => {
               <img className='Avatar' src={Avatar} alt="" />
             </Tilt>
           </div>
-        </Col>
-      </Row>
-      <Row>
-        <Col md={12} className="home-about-social">
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-12 home-about-social">
           <h1>FIND ME ON</h1>
           <p>
             Feel free to <span className="purple">connect </span>with me
@@ -117,9 +116,9 @@ const Home = () => {
               </a>
             </li>
           </ul>
-        </Col>
-      </Row>
-    </Container>
+        </div>
+      </div>
+    </div>
   );
 }
 
