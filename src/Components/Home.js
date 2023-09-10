@@ -27,7 +27,8 @@ const Home = () => {
                 </span>
               </h1>
               <h1>I'M <b>BURAK SAHIN</b></h1>
-              <Typed/>   
+              <Typed/>         
+
             </div>
 
             <Lottie 
@@ -62,7 +63,7 @@ const Home = () => {
         <div className="col-md-12 home-about-social">
           <h1>FIND ME ON</h1>
           <p>
-            Feel free to <span className="purple">connect </span>with me
+            Feel free to <b>connect</b> with me
           </p>
           <ul className="home-about-social-links">
             <li className="social-icons">
